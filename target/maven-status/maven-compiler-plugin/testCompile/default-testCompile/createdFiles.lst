@@ -1,0 +1,4 @@
+com\comcast\ucAppAutomation\businessDrivenTesting\cucumberOptions\AppiumParallelExecution.class
+com\comcast\ucAppAutomation\businessDrivenTesting\stepDefinitions\BaseTest.class
+com\comcast\ucAppAutomation\businessDrivenTesting\stepDefinitions\Feature1Steps.class
+com\comcast\ucAppAutomation\businessDrivenTesting\stepDefinitions\Feature2Steps.class
