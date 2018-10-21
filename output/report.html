@@ -4,7 +4,7 @@
 
 
 <head>
-	<meta charset='utf-8' /> 
+	<meta charset='UTF-8' /> 
 	<meta name='description' content='' />
 	<meta name='robots' content='noodp, noydir' />
 	<meta name='viewport' content='width=device-width, initial-scale=1' />
@@ -15,9 +15,14 @@
 
 		<link href='https://cdn.rawgit.com/anshooarora/extentreports-java/bee7a4abdc590e21eec8618a90c81ff4d16e500a/dist/css/extent.css' type='text/css' rel='stylesheet' />
 	
-	<title>ExtentReports</title>
+	<title>UC App - Cucumber Framework</title>
 
 	<style type='text/css'>
+			
+      
+        
+      
+    
 	</style>
 </head>
 
@@ -35,10 +40,11 @@
 			<li class='waves-effect active'><a href='#!' view='test-view' onclick="configureView(0);chartsView('test');"><i class='material-icons'>dashboard</i></a></li>
 							<li class='waves-effect'><a href='#!' view='author-view' onclick="configureView(3)"><i class='material-icons'>person</i></a></li>
 			<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></i></a></li>
+			<li class='waves-effect'><a href='#!' onclick="configureView(-1)" view='testrunner-logs-view'><i class='material-icons'>note</i></a></li>
 		</ul>
 
 		<!-- report name -->
-		<span class='report-name'>ExtentReports</span>
+		<span class='report-name'>UC App - Cucumber Report</span>
 		
 		<!-- report headline -->
 		<span class='report-headline'></span>
@@ -47,7 +53,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Oct 21, 2018 05:22:57 PM</span>
+                    <span class='label suite-start-time blue darken-3'>Oct 21, 2018 09:07:56 PM</span>
 				</a>
 			</li>
 			<li>
@@ -173,12 +179,12 @@
 				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>Calculate add and substract</span>
-						<span class='test-time'>Oct 21, 2018 05:22:57 PM</span>
+						<span class='test-time'>Oct 21, 2018 09:07:56 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
-<div class='scenario node' test-id='3' status='pass'>
-	<span class='duration right label'>0h 0m 3s+272ms</span>
+<div class='scenario node' test-id='4' status='pass'>
+	<span class='duration right label'>0h 0m 43s+325ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
 		<span class="desc-text">Add</span>
@@ -189,24 +195,30 @@
 			<b>Given</b>
 			
 			<span class="bdd-step-name">Given add numbers "2" and "3"</span>
-				<div class='pre'>9</div>
+			<ul class='screenshots right'>
+				<li><a data-featherlight="image" href="D:\Users\vajapu\workspace\test2artifact/FailedTestsScreenshots/Add20181021090839.png"><i class='material-icons'>panorama</i></a></li>
+			</ul>
+				<div class='pre'>8</div>
 				<div class='pre'>passed</div>
 			
 		</li>
 	</ul>
 </div>
-<div class='scenario node' test-id='8' status='pass'>
-	<span class='duration right label'>0h 0m 5s+4ms</span>
+<div class='scenario node' test-id='6' status='pass'>
+	<span class='duration right label'>0h 0m 45s+515ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
 		<span class="desc-text">Substract</span>
 	</div>
 	<ul class='steps'>
-		<li test-id='10' class='node given pass' status='pass'>
+		<li test-id='9' class='node given pass' status='pass'>
 			
 			<b>Given</b>
 			
 			<span class="bdd-step-name">Given substract numbers "2" and "3"</span>
+			<ul class='screenshots right'>
+				<li><a data-featherlight="image" href="D:\Users\vajapu\workspace\test2artifact/FailedTestsScreenshots/Substract20181021090930.png"><i class='material-icons'>panorama</i></a></li>
+			</ul>
 				<div class='pre'>passed</div>
 			
 		</li>
@@ -219,36 +231,39 @@
 				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='2'>
 					<div class='test-heading'>
 						<span class='test-name'>Calculate add and substract</span>
-						<span class='test-time'>Oct 21, 2018 05:22:57 PM</span>
+						<span class='test-time'>Oct 21, 2018 09:07:56 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
-<div class='scenario node' test-id='4' status='pass'>
-	<span class='duration right label'>0h 0m 3s+272ms</span>
+<div class='scenario node' test-id='3' status='pass'>
+	<span class='duration right label'>0h 0m 55s+352ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
 		<span class="desc-text">Add</span>
 	</div>
 	<ul class='steps'>
-		<li test-id='6' class='node given pass' status='pass'>
+		<li test-id='7' class='node given pass' status='pass'>
 			
 			<b>Given</b>
 			
 			<span class="bdd-step-name">Given add numbers "2" and "3"</span>
-				<div class='pre'>8</div>
+			<ul class='screenshots right'>
+				<li><a data-featherlight="image" href="D:\Users\vajapu\workspace\test2artifact/FailedTestsScreenshots/Add20181021090851.png"><i class='material-icons'>panorama</i></a></li>
+			</ul>
+				<div class='pre'>9</div>
 				<div class='pre'>passed</div>
 			
 		</li>
 	</ul>
 </div>
-<div class='scenario node' test-id='7' status='pass'>
-	<span class='duration right label'>0h 0m 5s+4ms</span>
+<div class='scenario node' test-id='8' status='pass'>
+	<span class='duration right label'>0h 0m 46s+12ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
 		<span class="desc-text">Substract</span>
 	</div>
 	<ul class='steps'>
-		<li test-id='9' class='node given pass' status='pass'>
+		<li test-id='12' class='node given pass' status='pass'>
 			
 			<b>Given</b>
 			
@@ -262,15 +277,15 @@
 				</li>
 				
 				
-				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='11'>
+				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='10'>
 					<div class='test-heading'>
 						<span class='test-name'>Calculate mul and div</span>
-						<span class='test-time'>Oct 21, 2018 05:23:05 PM</span>
+						<span class='test-time'>Oct 21, 2018 09:09:35 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
-<div class='scenario node' test-id='12' status='pass'>
-	<span class='duration right label'>0h 0m 5s+8ms</span>
+<div class='scenario node' test-id='11' status='pass'>
+	<span class='duration right label'>0h 0m 26s+243ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
 		<span class="desc-text">multiply</span>
@@ -281,23 +296,29 @@
 			<b>Given</b>
 			
 			<span class="bdd-step-name">Given multiply numbers "2" and "3"</span>
+			<ul class='screenshots right'>
+				<li><a data-featherlight="image" href="D:\Users\vajapu\workspace\test2artifact/FailedTestsScreenshots/multiply20181021091001.png"><i class='material-icons'>panorama</i></a></li>
+			</ul>
 				<div class='pre'>passed</div>
 			
 		</li>
 	</ul>
 </div>
-<div class='scenario node' test-id='17' status='pass'>
-	<span class='duration right label'>0h 0m 1s+4ms</span>
+<div class='scenario node' test-id='18' status='pass'>
+	<span class='duration right label'>0h 0m 25s+104ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
 		<span class="desc-text">divide</span>
 	</div>
 	<ul class='steps'>
-		<li test-id='19' class='node given pass' status='pass'>
+		<li test-id='20' class='node given pass' status='pass'>
 			
 			<b>Given</b>
 			
 			<span class="bdd-step-name">Given divide numbers "2" and "3"</span>
+			<ul class='screenshots right'>
+				<li><a data-featherlight="image" href="D:\Users\vajapu\workspace\test2artifact/FailedTestsScreenshots/divide20181021091033.png"><i class='material-icons'>panorama</i></a></li>
+			</ul>
 				<div class='pre'>passed</div>
 			
 		</li>
@@ -310,12 +331,12 @@
 				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='13'>
 					<div class='test-heading'>
 						<span class='test-name'>Calculate mul and div</span>
-						<span class='test-time'>Oct 21, 2018 05:23:05 PM</span>
+						<span class='test-time'>Oct 21, 2018 09:09:44 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='scenario node' test-id='14' status='pass'>
-	<span class='duration right label'>0h 0m 5s+3ms</span>
+	<span class='duration right label'>0h 0m 18s+555ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
 		<span class="desc-text">multiply</span>
@@ -326,23 +347,29 @@
 			<b>Given</b>
 			
 			<span class="bdd-step-name">Given multiply numbers "2" and "3"</span>
+			<ul class='screenshots right'>
+				<li><a data-featherlight="image" href="D:\Users\vajapu\workspace\test2artifact/FailedTestsScreenshots/multiply20181021091002.png"><i class='material-icons'>panorama</i></a></li>
+			</ul>
 				<div class='pre'>passed</div>
 			
 		</li>
 	</ul>
 </div>
-<div class='scenario node' test-id='18' status='pass'>
-	<span class='duration right label'>0h 0m 1s+5ms</span>
+<div class='scenario node' test-id='17' status='pass'>
+	<span class='duration right label'>0h 0m 15s+519ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
 		<span class="desc-text">divide</span>
 	</div>
 	<ul class='steps'>
-		<li test-id='20' class='node given pass' status='pass'>
+		<li test-id='19' class='node given pass' status='pass'>
 			
 			<b>Given</b>
 			
 			<span class="bdd-step-name">Given divide numbers "2" and "3"</span>
+			<ul class='screenshots right'>
+				<li><a data-featherlight="image" href="D:\Users\vajapu\workspace\test2artifact/FailedTestsScreenshots/divide20181021091022.png"><i class='material-icons'>panorama</i></a></li>
+			</ul>
 				<div class='pre'>passed</div>
 			
 		</li>
@@ -402,7 +429,7 @@
 
                         <li class='author displayed active'>
                             <div class='author-heading'>
-                                <span class='author-name'>withcapability123456</span>
+                                <span class='author-name'>Running&nbsp;&nbsp;with&nbsp;&nbsp;configuration&nbsp;&nbsp;:<p>browserName:-Android,udid:-51baca80,deviceName:-VibeK5,platformName:-Android,app:-F:\uday\Newfolder\Newfolder\SBGameHacker_2.4.1.apk,url:-http://127.0.0.1:4723/wd/hub<p></span>
                                 <span class='author-status right'>
                                         <span class='label pass'>4</span>
 						        </span>
@@ -425,22 +452,22 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td>Oct 21, 2018 05:22:57 PM</td>
-                                                <td class='linked' test-id='3'>Calculate add and substract.Add</td>
+                                                <td>Oct 21, 2018 09:07:56 PM</td>
+                                                <td class='linked' test-id='4'>Calculate add and substract.Add</td>
                                                 <td><span class='test-status pass'>pass</span></td>
                                             </tr>
                                             <tr>
-                                                <td>Oct 21, 2018 05:23:00 PM</td>
-                                                <td class='linked' test-id='8'>Calculate add and substract.Substract</td>
+                                                <td>Oct 21, 2018 09:08:44 PM</td>
+                                                <td class='linked' test-id='6'>Calculate add and substract.Substract</td>
                                                 <td><span class='test-status pass'>pass</span></td>
                                             </tr>
                                             <tr>
-                                                <td>Oct 21, 2018 05:23:05 PM</td>
-                                                <td class='linked' test-id='14'>Calculate mul and div.multiply</td>
+                                                <td>Oct 21, 2018 09:09:35 PM</td>
+                                                <td class='linked' test-id='11'>Calculate mul and div.multiply</td>
                                                 <td><span class='test-status pass'>pass</span></td>
                                             </tr>
                                             <tr>
-                                                <td>Oct 21, 2018 05:23:10 PM</td>
+                                                <td>Oct 21, 2018 09:10:08 PM</td>
                                                 <td class='linked' test-id='18'>Calculate mul and div.divide</td>
                                                 <td><span class='test-status pass'>pass</span></td>
                                             </tr>
@@ -451,7 +478,7 @@
                         </li>
                         <li class='author displayed active'>
                             <div class='author-heading'>
-                                <span class='author-name'>withcapability987654</span>
+                                <span class='author-name'>Running&nbsp;&nbsp;with&nbsp;&nbsp;configuration&nbsp;&nbsp;:<p>browserName:-Android,udid:-0123456789ABCDEF,deviceName:-mmx,platformName:-Android,app:-F:\uday\Newfolder\Newfolder\SBGameHacker_2.4.1.apk,url:-http://127.0.0.1:4724/wd/hub<p></span>
                                 <span class='author-status right'>
                                         <span class='label pass'>4</span>
 						        </span>
@@ -474,22 +501,22 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td>Oct 21, 2018 05:22:57 PM</td>
-                                                <td class='linked' test-id='4'>Calculate add and substract.Add</td>
+                                                <td>Oct 21, 2018 09:07:56 PM</td>
+                                                <td class='linked' test-id='3'>Calculate add and substract.Add</td>
                                                 <td><span class='test-status pass'>pass</span></td>
                                             </tr>
                                             <tr>
-                                                <td>Oct 21, 2018 05:23:00 PM</td>
-                                                <td class='linked' test-id='7'>Calculate add and substract.Substract</td>
+                                                <td>Oct 21, 2018 09:08:58 PM</td>
+                                                <td class='linked' test-id='8'>Calculate add and substract.Substract</td>
                                                 <td><span class='test-status pass'>pass</span></td>
                                             </tr>
                                             <tr>
-                                                <td>Oct 21, 2018 05:23:05 PM</td>
-                                                <td class='linked' test-id='12'>Calculate mul and div.multiply</td>
+                                                <td>Oct 21, 2018 09:09:44 PM</td>
+                                                <td class='linked' test-id='14'>Calculate mul and div.multiply</td>
                                                 <td><span class='test-status pass'>pass</span></td>
                                             </tr>
                                             <tr>
-                                                <td>Oct 21, 2018 05:23:10 PM</td>
+                                                <td>Oct 21, 2018 09:10:07 PM</td>
                                                 <td class='linked' test-id='17'>Calculate mul and div.divide</td>
                                                 <td><span class='test-status pass'>pass</span></td>
                                             </tr>
@@ -536,25 +563,54 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Oct 21, 2018 05:22:57 PM</div>
+					<div class='panel-lead'>Oct 21, 2018 09:07:56 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Oct 21, 2018 05:23:12 PM</div>
+			 		<div class='panel-lead'>Oct 21, 2018 09:10:38 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>15,220ms</div>
+					<div class='panel-lead'>162,214ms</div>
+				</div>
+			</div>
+			<div class='col s4'>
+				<div class='card-panel dashboard-environment'>
+					<span class='right label cyan white-text'>Environment</span><p>&nbsp;</p>
+					
+					<table>
+						<tr>
+							<th>Name</th>
+							<th>Value</th>
+						</tr>
+							<tr>
+								<td>user</td>
+								<td>vajapu</td>
+							</tr>
+							<tr>
+								<td>os</td>
+								<td>Mac OSX</td>
+							</tr>
+					</table>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
 <!-- dashboard view -->
+<div id='testrunner-logs-view' class='view hide'>
+	<div class='card-panel transparent np-v'>
+		<h5>TestRunner Logs</h5>
+		
+		<div class='card-panel'>
+				Sample test runner output message
+		</div>
+	</div>
+</div>
 <!-- testrunner-logs view -->
 		</div>
 		<!-- container -->
@@ -593,6 +649,13 @@
 		
 		
  		<script type='text/javascript'>
+ 			
+      
+        $(document).ready(function() {
+        
+        });
+      
+    
  		</script>
 	</body>
 	

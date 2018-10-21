@@ -48,6 +48,30 @@
 			<artifactId>cucumber-extentsreport</artifactId>
 			<version>3.0.2</version>
 		</dependency>
+		<!-- These are the selenium-webdriver dependencies -->	
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>3.5.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-server</artifactId>
+			<version>3.5.2</version>
+		</dependency>
+		<dependency>
+		    <groupId>com.github.selenium-cucumber</groupId>
+		    <artifactId>selenium-cucumber-java</artifactId>
+		    <version>1.0.1-beta</version>
+		</dependency>
+		
+		<!-- These are the Appium dependencies -->	
+		<dependency>
+		    <groupId>io.appium</groupId>
+		    <artifactId>java-client</artifactId>
+		    <version>5.0.4</version>
+		</dependency>
 	</dependencies>
 <!-- 	<build> -->
 <!-- 		<plugins> -->
